@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {connect} from 'react-redux';
 import { addSmurfs } from '../actions';
 
-function SmurfsForm(props) {
+function SmurfForm(props) {
 
     const [smurf, setSmurf] = useState({
         name: '',
@@ -48,4 +48,4 @@ const mapStateToProps = () => {
     }
 }
 
-export default connect(mapStateToProps, {addSmurfs})(SmurfsForm) 
+export default connect(mapStateToProps, {addSmurfs})(SmurfForm) 

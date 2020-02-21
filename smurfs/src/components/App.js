@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import SmurfsList from './smurfsList';
+import SmurfList from './smurfsList';
 import SmurfForm from './smurfsForm';
 import Header from './header';
 
@@ -12,7 +12,7 @@ class App extends Component {
            <Header />
 
    <div className = 'grid-2'>
-      <SmurfsList/>
+      <SmurfList />
        <SmurfForm />
       </div>
 

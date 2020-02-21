@@ -4,7 +4,7 @@ import { getSmurfs } from '../actions';
 import Smurf from './smurf';
 import Loader from 'react-loader-spinner';
 
-function SmurfsList(props) {
+function SmurfList(props) {
 
     const { getSmurfs} = props;
 
@@ -32,4 +32,4 @@ const mapStateToProps = (state) => {
     }
 }
 
-export default connect(mapStateToProps, {getSmurfs})(SmurfsList)
+export default connect(mapStateToProps, {getSmurfs})(SmurfList)
